@@ -3,3 +3,12 @@ def uppertext(a):
     return x
 a = uppertext('hosein shajari 6 sale!')
 print (a)
+
+
+
+
+texts=['hosein','kazem']
+List = []
+for i in texts:
+    List.append(i.upper())
+print(List)
