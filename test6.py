@@ -1,8 +1,8 @@
 def evenorodd(number):
     if number % 2 == 0:
-        return 0
+        return False
     else:
-        return tr
+        return True
 
 number = int(input("enter number:"))
 result = evenorodd(number)
