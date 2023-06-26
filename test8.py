@@ -1,14 +1,18 @@
-def uppertext(a):
-    x = a.upper()
-    return x
-a = uppertext('hosein shajari 6 sale!')
-print (a)
-
-
-
-
-texts=['hosein','kazem']
-List = []
+texts=['hosein']
+list=[]
 for i in texts:
-    List.append(i.upper())
-print(List)
+    list.append(i.upper())
+print(list)
+
+
+
+
+def uppera(s):
+    texts = []
+    for s in s:
+        texts.append(s.upper())
+    return texts
+
+list = ["hello"]
+result = uppera(list)
+print(result)
