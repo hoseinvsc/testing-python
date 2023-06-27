@@ -1,13 +1,12 @@
-def evenorodd(number):
-    if number % 2 == 0:
-        return False
-    else:
-        return True
+def calculate_average(numbers):
+    if len(numbers) == 0:
+        return 0
+    i = sum(numbers)
+    average = i / len(numbers)
+    return average
 
-number = int(input("enter number:"))
-result = evenorodd(number)
 
-if (result == 0):
-    print(number,"is true!")
-else:
-    print(number,"is false!")
+
+numbers = [1, 2, 3, 4, 5]
+average = calculate_average(numbers)
+print(" miyangiin;", average)

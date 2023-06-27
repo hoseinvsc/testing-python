@@ -1,18 +1,9 @@
-texts=['hosein']
-list=[]
-for i in texts:
-    list.append(i.upper())
-print(list)
+list = [20,"Hi","hosein",100,1]
 
+def number(list):
+    count = 0
+    for i in list:
+        count += 1
+    return count
 
-
-
-def uppera(s):
-    texts = []
-    for s in s:
-        texts.append(s.upper())
-    return texts
-
-list = ["hello"]
-result = uppera(list)
-print(result)
+print(number(list))

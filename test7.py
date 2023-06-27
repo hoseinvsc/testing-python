@@ -1,12 +1,18 @@
-def calculate_average(numbers):
-    if len(numbers) == 0:
-        return 0
-    i = sum(numbers)
-    average = i / len(numbers)
-    return average
+texts=['hosein']
+list=[]
+for i in texts:
+    list.append(i.upper())
+print(list)
 
 
 
-numbers = [1, 2, 3, 4, 5]
-average = calculate_average(numbers)
-print(" miyangiin;", average)
+
+def uppera(s):
+    texts = []
+    for s in s:
+        texts.uppera(s.upper())
+    return texts
+
+list = ["hello"]
+result = uppera(list)
+print(result)
