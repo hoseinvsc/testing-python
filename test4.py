@@ -1,6 +1,3 @@
-
-
-
 def hbs (x):
     if x<0:
         b=x*-1
