@@ -5,12 +5,8 @@ def discounter(price_list, discount):
     discounted_price = sum(discounted)
     return discounted_price
 
-prices = input("type price:").split(".")
-
-prices = [float(price) for price in prices]
-
+p = input("type price:").split(" ")
+p = [float(price) for price in p]
 discount = float(input("type discount:"))
-
-final_price = discounter(prices, discount)
-
-print("prices with discount=", final_price)
+final_price = discounter(p, discount)
+print("prices with discount =", final_price)
