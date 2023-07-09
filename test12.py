@@ -1,19 +1,5 @@
-def farsi2turki(number):
-    turki_number = {"bir":1,"iki":2,"uoch":3,"Dord":4,"Besh":5,"Alteh":6,"Yedeh":7,"Sekiz":8,"Doghuz":9,"Oun":10}
-    if number in turki_number:
-        return turki_number[number]
-    else:
-        return "this isnt defind"
-
-number = int(input("give number:"))
-turki_number = farsi2turki(number)
-print(turki_number)
-
-
-
-
-def turki2farsi(turki_number):
-    farsinumber = {
+def turki2farsi(tnumber):
+    number = {
         "bir": 1,
         "iki": 2,
         "uoch": 3,
@@ -25,13 +11,26 @@ def turki2farsi(turki_number):
         "doghuz": 9,
         "on": 10
     }
-    if turki_number in farsinumber:
-        return farsinumber[turki_number]
-    return "errore"
+    if tnumber in number:
+        return number[tnumber]
 
-turki_number = input("import the turki nember:")
-farsi_number = turki2farsi(turki_number)
-if type(farsi_number) == int:
-    print("farsi number=", farsi_number)
+tnumber = input("import the turki nember:")
+fnumber = turki2farsi(tnumber)
+if type(fnumber) == int:
+    print("farsi number=", fnumber)
 else:
-    print(farsi_number)
+    print(fnumber)
+
+
+
+
+
+def turki_to_farsi(turkish_word):
+    farsi_words = {
+        "gharpuz": "هندوانه",
+        "su": "آب"}
+    if turkish_word in farsi_words:
+        return farsi_words[turkish_word]
+turki = input("import the turki word:")
+farsi = turki_to_farsi(turki)
+print(farsi)
