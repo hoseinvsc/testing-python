@@ -13,7 +13,7 @@ def balance_founder(file2, balance2):
 # balance2 = balance_founder[2]
 
 # Example usage:
-file = open("problem1/day1.txt", "r")
+file = open("/home/hosein/w/testing-python/test16.txt", "r")
 read_file = file.read()
 
 # initial_balance = 0
