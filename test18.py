@@ -6,6 +6,6 @@ def JewelsStones(J, S):
     return count
 
 J = "aA"
-S = "aAAbbbb"
+S = "aAAAA"
 result = JewelsStones(J, S)
 print(result)
