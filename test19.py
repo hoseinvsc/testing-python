@@ -1,3 +1,4 @@
+#2798: Number of Employees Who Met the Target,Leetcode.com
 def target_founder(h,t):
     target = 0
     for hour in h:

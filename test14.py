@@ -1,6 +1,5 @@
 import datetime
 import jdatetime 
-
 def jtom(s):
     a = s.split('-')
     year = int(a[0])
@@ -9,7 +8,6 @@ def jtom(s):
     x = jdatetime.date(year,month,day)
     q = x.togregorian()
     return q
-
 
 s='1402-4-29'
 v=jtom(s)
