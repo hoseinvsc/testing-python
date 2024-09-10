@@ -10,4 +10,4 @@ def myprinter(range1):
         for i in range(range1,0,-1):
             print("*"*i,)
 
-myprinter(range1=10.2)
+myprinter(range1=10)
